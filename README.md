@@ -1,5 +1,10 @@
 # Customer Segmentation & RFM Analysis
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red)
+![Machine Learning](https://img.shields.io/badge/ML-KMeans-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 > **Project 2 dari 3**
 
 
