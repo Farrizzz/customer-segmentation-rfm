@@ -8,11 +8,11 @@
 > **Project 2 dari 3**
 
 
-## 📌 Overview
+## Overview
 
 Proyek ini mensegmentasi pelanggan retail menggunakan metode **RFM (Recency, Frequency, Monetary)** dan **K-Means Clustering**. Hasilnya adalah 4 segmen pelanggan yang actionable, dilengkapi rekomendasi strategi marketing dan dashboard interaktif berbasis Streamlit.
 
-## 🎯 Tujuan
+##  Tujuan
 
 1. Menghitung RFM score setiap pelanggan dari data transaksi
 2. Menentukan jumlah cluster optimal dengan Elbow Method & Silhouette Score
@@ -21,7 +21,7 @@ Proyek ini mensegmentasi pelanggan retail menggunakan metode **RFM (Recency, Fre
 
 ---
 
-## 📁 Struktur Project
+##  Struktur Project
 
 ```
 project2_rfm/
@@ -51,29 +51,29 @@ project2_rfm/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Sumber:** [Online Retail II — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
 - **Periode:** Desember 2009 – Desember 2011
 
 
-## 🔑 Key Findings
+##  Key Findings
 
 ### Segmen Pelanggan
 
 | Segmen | Deskripsi | Strategi |
 |--------|-----------|---------|
-| 🏆 Champions | Beli terbaru, paling sering, nilai terbesar | Loyalty program, brand ambassador |
-| 💛 Loyal Customers | Frekuensi tinggi, monetary belum optimal | Upsell, bundle premium |
-| ⚠️ At Risk | Dulu aktif, mulai menjauh | Win-back email + diskon personal |
-| 😴 Lost Customers | Lama tidak aktif, nilai rendah | Minimasi biaya, last-chance offer |
+|  Champions | Beli terbaru, paling sering, nilai terbesar | Loyalty program, brand ambassador |
+|  Loyal Customers | Frekuensi tinggi, monetary belum optimal | Upsell, bundle premium |
+|  At Risk | Dulu aktif, mulai menjauh | Win-back email + diskon personal |
+|  Lost Customers | Lama tidak aktif, nilai rendah | Minimasi biaya, last-chance offer |
 
 ### Prinsip Pareto Terkonfirmasi
 > ~20% pelanggan (Champions) menyumbang ~60%+ dari total revenue
 
 ---
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 
 ```bash
 # 1. Clone repo
@@ -98,11 +98,11 @@ streamlit run app.py
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 [Open Streamlit App](https://customer-segmentation-rfm-mp6ct3taqkg9e3ennanedu.streamlit.app/)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python:** pandas, numpy, matplotlib, seaborn, scikit-learn
 - **Machine Learning:** K-Means Clustering, PCA, Silhouette Score
@@ -111,7 +111,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Next Steps
+##  Next Steps
 
 Insight dari project ini digunakan di **Project 3: Loan Default Prediction** dengan model ML yang lebih kompleks (XGBoost + SHAP interpretability).
 
