@@ -93,6 +93,10 @@ streamlit run app.py
 
 ---
 
+## 🌐 Live Demo
+
+[Open Streamlit App](https://customer-segmentation-rfm-mp6ct3taqkg9e3ennanedu.streamlit.app/)
+
 ## 🛠️ Tech Stack
 
 - **Python:** pandas, numpy, matplotlib, seaborn, scikit-learn
